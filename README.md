@@ -28,7 +28,7 @@ A Rust-based real-time tracker built with Alloy that listens to Uniswap V3 pool 
 
 Clone the repository:
 
-`git clone https://github.com/dlr-a/uniswapv3-pool-tracker.git`
+`git clone https://github.com/dlr-a/uniswapv3-pool-price-tracker.git`
 
 `cd uniswapv3-pool-tracker`
 
