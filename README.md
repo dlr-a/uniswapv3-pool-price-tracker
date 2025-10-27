@@ -30,7 +30,7 @@ Clone the repository:
 
 `git clone https://github.com/dlr-a/uniswapv3-pool-price-tracker.git`
 
-`cd uniswapv3-pool-tracker`
+`cd uniswapv3-pool-price-tracker`
 
 `cargo build`
 
