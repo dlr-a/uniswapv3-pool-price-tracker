@@ -16,7 +16,7 @@ A Rust-based real-time tracker built with Alloy that listens to Uniswap V3 pool 
 
 - Calculates price ratios from sqrtPriceX96
 
-- Prints real-time token-to-token prices
+- Logs real-time token-to-token prices
 
 ## Requirements
 
@@ -36,20 +36,16 @@ Clone the repository:
 
 ## Environment Configuration
 
-Create a .env file in the project root and add your pool addresses like:
+Create a .env file in the project root and add your pool addresses. Each pool address should be separated by commas. Set your RPC URL with your own provider (e.g., Alchemy) as shown below, or the tracker will automatically connect to the public node at wss://ethereum-rpc.publicnode.com.
+
+Example .env:
 
 `POOLS=poolAddress1,poolAddress2`
 
-Each address should be separated by commas.
+`RPC_URL=YOUR_RPC_URL`
 
 ## Run the tracker using Cargo
 
 Start the project using Cargo:
 
 `cargo run`
-
-## Notes
-
-- By default, the tracker connects to wss://ethereum-rpc.publicnode.com.
-
-- You can replace the RPC URL with your own provider (e.g., Alchemy).
